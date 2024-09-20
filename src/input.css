@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.placeholder-custom::placeholder {
+    font-size: 0.85rem;
+    color: gray;
+}
+
+@media (min-width: 640px) {
+  .placeholder-custom::placeholder {
+    font-size: 1.25rem;
+  }
+}
+
+.display-none{
+    @apply hidden;
+}

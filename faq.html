@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="./src/output.css" rel="stylesheet"> -->
+    <link href="./src/output.min.css" rel="stylesheet">
+
+    <title>PaywallHub | FAQ</title>
+
+	<meta name="description" content="Frequently asked questions for PaywallHub.">
+
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700&display=swap" rel="stylesheet">
+
+	<script src="./src/script.js"></script>
+
+</head>
+<body class="bg-slate-50 dark:bg-slate-700 font-custom text-black dark:text-white">
+    <header class="bg-slate-200 dark:bg-slate-800 flex flex-col shadow-md">
+
+		<!-- buttons -->
+		<div class="flex flex-row justify-end">
+			<!-- light / dark mode -->
+			<button id="switchButton" class=" 
+				flex items-center justify-center mr-3 mt-7
+					w-10 h-10 bg-slate-300 dark:bg-slate-500 rounded-md shadow-md hover:ring-blue-400 lg:hover:ring-2">
+				<div id="moon" >    
+					<svg  class=" md:inline-block fill-black ml-1" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg>
+				</div>
+				<div id="sun">
+					<svg  class=" md:inline-block" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg>
+				</div>
+			</button>
+
+			<!-- language select -->
+
+			<!-- github button -->
+			<a target="_blank" href="https://linktr.ee/paywallhub"
+				class="flex items-center justify-center mr-7 mt-7
+				w-10 h-10 bg-slate-300 dark:bg-slate-500 rounded-md shadow-md hover:ring-blue-400 lg:hover:ring-2">
+				
+				<svg class="fill-current text-black dark:text-white"
+					xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512">
+					<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+			</a>
+		</div>
+		
+		<div class="flex flex-col justify-center items-center">
+
+            <a href="https://paywallhub.com">
+                <div class="flex flex-row justify-center items-center ">
+                    <!-- logo -->
+                    <img class="h-10 md:h-20 m-3 md:mx-5 md:mb-5" id="logo-black"
+                        src="./img/logo.webp" alt="logo">
+    
+                    <img class="h-10 md:h-20 m-3 md:mx-5 md:mb-5" id="logo-white"
+                    src="./img/logo-white.webp" alt="logo">
+                        
+                    <h1 class="text-3xl md:text-6xl font-bold text-center ">
+                        PaywallHub
+                    </h1>
+                </div>
+            </a>
+
+			<h2 class="text-md md:text-xl font-light mb-5 mt-2">All your favorite paywall removers, united.</h2>
+		</div>
+		
+    </header>
+
+    <main class="my-20 mx-[20%]">
+		
+        <h2 class="text-3xl font-bold mb-5">
+            What does PaywallHub do?
+        </h2>
+
+        <p class="mb-5">
+            PaywallHub consolidates various websites that bypass annoying paywalls into one simple and efficient platform. Since some paywall removers may not work on certain articles, PaywallHub offers a quick solution by allowing you to open the article in different tabs with various paywall removers. This approach increases the likelihood of successfully accessing the content.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            Why does PaywallHub exist?
+        </h2>
+
+        <p class="mb-5">
+            At PaywallHub, we understand the delicate balance between the need for online businesses, including news outlets, to generate revenue and the universal right to access information. While it's crucial for publishers and content creators to earn money for their work, we also believe in the principle that knowledge and information should be freely accessible. This is especially important considering that not everyone has the financial means to afford multiple subscriptions or pay for individual articles. Our service is designed for those who find themselves restricted by financial barriers, offering a way to access content that might otherwise be out of reach. It's our way of contributing to a more informed and engaged public, fostering a world where information is more accessible to all, regardless of economic status.
+        </p>
+
+
+        <h2 class="text-3xl font-bold mb-5">
+            What sites does PaywallHub work for?
+        </h2>
+
+        <p class="mb-5">
+            The scope of PaywallHub's effectiveness across various sites with paywalls isn't something we can definitively list, as it largely depends on the specific paywall and its configuration. We encourage our users to experiment with the paywalled articles they wish to access using the array of third-party paywall removers available through our platform. While we cannot guarantee success for every site, our users often experience a very high success rate. Each remover tool has its unique way of bypassing paywalls, and in many cases, if one tool doesn’t work, another might. We continuously strive to expand and improve our range of tools to enhance user experience and success rates.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            What paywalls can be removed?
+        </h2>
+
+        <p class="mb-5">
+            When it comes to paywalls, there are generally two types: hard paywalls and soft paywalls. Soft paywalls typically overlay the article, meaning the content is actually on the page but hidden behind a prompt or overlay. In contrast, hard paywalls completely restrict access to the content unless a payment is made; the article isn't present on the page until you pay. An example of a hard paywall can be seen with premium articles on sites like TechCrunch. The most effective way to determine if PaywallHub can bypass a particular paywall is simply to test the article using our tools. If the paywall isn’t removed, it’s likely a hard paywall, which are typically not bypassable through our service.
+        </p>
+		
+        <h2 class="text-3xl font-bold mb-5">
+            How does PaywallHub ensure the privacy and security of its users?
+        </h2>
+
+        <p class="mb-5">
+            At PaywallHub, we prioritize our users' privacy and security. We do not collect any personal data from our users. The only data we gather is through Google Analytics, which is used strictly for analyzing website traffic and improving user experience on our site. This information is purely statistical and does not include any personal details. We are committed to ensuring that our users' privacy is respected and protected at all times while using our service.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            Is PaywallHub legal to use?
+        </h2>
+
+        <p class="mb-5">
+            Yes, PaywallHub operates within the bounds of legality. Our service functions by redirecting users to third-party sites that facilitate the removal of paywalls. It's important to note that we do not have any association with these third-party sites. PaywallHub acts as a gateway to these resources, offering a convenient way for users to potentially access paywalled content, but we do not directly engage in the process of bypassing paywalls ourselves.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            Does PaywallHub work on mobile devices and tablets?
+        </h2>
+
+        <p class="mb-5">
+            Absolutely! PaywallHub is designed to work seamlessly across a variety of devices, including mobile phones and tablets. We understand the importance of accessibility and convenience in today’s digital world, so our platform is optimized to ensure that users can access our services on any device, anywhere. Whether you’re using a smartphone, tablet, or desktop computer, PaywallHub is ready to assist you in accessing content.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            What should I do if a paywall remover stops working?
+        </h2>
+
+        <p class="mb-5">
+            If you encounter any issues with one of our paywall removers, please don't hesitate to get in touch with us. You can contact us via <a class="underline" href="mailto:contact@paywallhub.com">email</a> or fill out a provided <a class="underline" target="_blank" href="https://forms.gle/3d1a56RTPGRHj7FD8">Google form</a> with details of the issue. We are committed to resolving any problems promptly to ensure a smooth experience for our users.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            How can users contribute to or support PaywallHub?
+        </h2>
+
+        <p class="mb-5">
+            PaywallHub is an open-source project, and we welcome contributions from the community. If you have skills in coding, design, or any area that you think could benefit our project, feel free to contribute on our <a class="underline" target="_blank" href="https://linktr.ee/paywallhub">GitHub</a>. Additionally, if you wish to support us financially, you can make a donation through <a target="_blank" class="underline" href="https://ko-fi.com/paywallhub">Ko-fi</a>. Your support is greatly appreciated and helps us keep improving our service.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            Is there a limit to the number of articles I can access through PaywallHub?
+        </h2>
+
+        <p class="mb-5">
+            No, there are no limitations on the number of articles you can access through PaywallHub. Our goal is to provide unrestricted access to information, so you can freely use our tools to access content behind paywalls without any usage caps.
+        </p>
+
+        <h2 class="text-3xl font-bold mb-5">
+            Can I request the addition of a new paywall remover tool?
+        </h2>
+
+        <p class="mb-5">
+            Yes, we are always looking to expand our range of paywall removal tools. If you have a suggestion for a new tool or a specific paywall that you'd like us to include, please contact us via <a class="underline" href="mailto:contact@paywallhub.com">email</a> or our <a target="_blank" class="underline" href="https://forms.gle/3d1a56RTPGRHj7FD8">Google Form</a>. We value user feedback and strive to continuously evolve our service to meet user needs
+        </p>
+
+        <!-- <h2 class="text-3xl font-bold mb-5">
+            
+        </h2>
+
+        <p class="mb-5">
+
+        </p> -->
+
+    </main>
+
+	<footer class=" bg-slate-200 dark:bg-slate-800 shadow-t-sm mb-10">
+		<div class="flex flex-col sm:flex-row items-center justify-center font-light shadow-md">
+			<!-- about us -->
+			<!-- <h2 class="my-2 mt-7 sm:m-10">
+				<a href="#">About us</a>
+			</h2> -->
+
+			<!-- contact us -->
+			<h2 class="my-2 sm:m-10">
+				<a href="mailto:contact@paywallhub.com">Contact us</a>
+			</h2>
+
+			<!-- privacy policy -->
+			<h2 class="my-2 sm:m-10">
+				<a target="_blank" href="https://paywallhub.com/privacy-policy.html">Privacy policy</a>
+			</h2>
+
+			<!--github -->
+			<!-- <h2 class="my-2 mb-7 sm:m-10">
+				<a target="_blank" href="https://linktr.ee/paywallhub">GitHub</a>
+			</h2> -->
+
+			<h2 class="my-2 mb-7 sm:m-10">
+				<a href="https://paywallhub.com/faq">FAQ</a>
+			</h2>
+
+			<!-- <h2 class="my-2 mb-7 sm:m-10">
+				<a target="_blank" href="#">Other ways to remove paywalls</a>
+			</h2> -->
+		</div>
+
+	</footer>
+	
+</body>
+</html>
