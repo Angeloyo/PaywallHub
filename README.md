@@ -1,4 +1,4 @@
-[Chrome Extension repo](https://paywallhub.com) - [Chrome Web Store](https://chrome.google.com/webstore/detail/paywallhub/iimagbhmhkinjaaammedekiocfphhhca) - [Firefox addon](https://addons.mozilla.org/es/firefox/addon/paywallhub/) - [Firefox addon repo](https://github.com/Angeloyo/paywallhub-firefox-addon)
+[Chrome Extension repo](https://github.com/Angeloyo/paywallhub-chrome-extension) - [Chrome Web Store](https://chrome.google.com/webstore/detail/paywallhub/iimagbhmhkinjaaammedekiocfphhhca) - [Firefox addon](https://addons.mozilla.org/es/firefox/addon/paywallhub/) - [Firefox addon repo](https://github.com/Angeloyo/paywallhub-firefox-addon)
 
 # PaywallHub closes!
 
