@@ -8,7 +8,9 @@
 
 ## Alternatives 
 
-The idea behind PaywallHub has influenced the creation of several similar websites, which you can still use today.
+**Browser extensions are still available**
+
+If you prefer the web version, the idea behind PaywallHub has influenced the creation of several similar websites, which you can still use today.
 
 [archivebuttons.com](https://www.archivebuttons.com), [paywallbuster.com](https://www.paywallbuster.com), [paywallreader.com](https://www.paywallreader.com), [removepaywall.com](https://www.removepaywall.com)
 
