@@ -1,4 +1,4 @@
-[Chrome Extension repo](https://github.com/Angeloyo/paywallhub-chrome-extension) - [Chrome Web Store](https://chrome.google.com/webstore/detail/paywallhub/iimagbhmhkinjaaammedekiocfphhhca) - [Firefox addon](https://addons.mozilla.org/es/firefox/addon/paywallhub/) - [Firefox addon repo](https://github.com/Angeloyo/paywallhub-firefox-addon)
+[Chrome Web Store](https://chrome.google.com/webstore/detail/paywallhub/iimagbhmhkinjaaammedekiocfphhhca) - [Chrome Extension repo](https://github.com/Angeloyo/paywallhub-chrome-extension) - [Firefox addon repo](https://github.com/Angeloyo/paywallhub-firefox-addon)
 
 # PaywallHub closes!
 
@@ -8,9 +8,9 @@
 
 ## Alternatives 
 
-**Browser extensions are still available**
+**[Chrome extension is still available!](https://chrome.google.com/webstore/detail/paywallhub/iimagbhmhkinjaaammedekiocfphhhca)**
 
-If you prefer the web version, the idea behind PaywallHub has influenced the creation of several similar websites, which you can still use today.
+But, if you prefer the web version, the idea behind PaywallHub has influenced the creation of several similar websites, which you can still use today.
 
 [archivebuttons.com](https://www.archivebuttons.com), [paywallbuster.com](https://www.paywallbuster.com), [paywallreader.com](https://www.paywallreader.com), [removepaywall.com](https://www.removepaywall.com)
 
